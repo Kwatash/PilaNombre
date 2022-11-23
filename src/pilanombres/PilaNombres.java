@@ -1,28 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pilanombres;
 import java.util.Stack;
 /**
  *
- * @author Usuario
+ * @author Omarsito
  */
 public class PilaNombres {
-
-    
     public static void main(String[] args) {
         Stack pila = new Stack();
-        pila.push("Antonio");
-        pila.push("Pedro");
-        pila.push("Jose");
-        pila.push("Maria");
-        pila.push("Carlos");
-        pila.push("Guadalupe Pistolas");
+        pila.push("Paco");
+        pila.push("Taco");
+        pila.push("Macho");
+        pila.push("LunaBella");
+        pila.push("AlexMarin");
+        pila.push("Cumexis");
         pila.pop();
         System.out.println("EL ultimo nombre es: " + pila.peek());
-        pila.push("Juan");
+        pila.push("Rondamon");
         pila.pop();
         pila.pop();
         System.out.println("El ultimo nombre es: " + pila.peek());
